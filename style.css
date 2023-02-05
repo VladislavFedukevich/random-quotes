@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+body {
+  width: 1200px;
+  margin: auto;
+  background-color: #837fb1;
+}
+
+h1 {
+  font: 400 48px "Roboto";
+  text-align: center;
+  color: #ffffff;
+}
+
+.wrapper {
+  padding: 15px 0 0 15px;
+  margin: auto;
+  width: 700px;
+  height: 360px;
+  background: #212931;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 21px;
+}
+
+.img {
+  width: 57px;
+  height: 13px;
+  background: url("/assets/circles.svg") no-repeat;
+  background-size: contain;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+p {
+  font: 400 20px 'Roboto';
+  text-align: center;
+  color: #ffffff;
+}
